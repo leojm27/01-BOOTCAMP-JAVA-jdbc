@@ -19,7 +19,7 @@ public class Main {
         int id = 7;
         System.out.println("Consulta registro " + id);
         User user = userDAO.getUserById(id);
-        if(user != null){
+        if (user != null) {
             System.out.println(String.format("Usuario recuperado %s ", user));
         } else {
             System.out.println(String.format("Usuario %s no encontrado.", id));
